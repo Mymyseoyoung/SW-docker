@@ -20,6 +20,7 @@ class StudentManagerTest {
     static void setUp() {
         studentManager = new StudentManager();
     }
+    // test 주석 추가
 
     @Test
     @Order(1)
