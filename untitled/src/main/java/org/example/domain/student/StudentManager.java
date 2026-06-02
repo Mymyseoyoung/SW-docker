@@ -12,6 +12,7 @@ public class StudentManager {
             throw new IllegalArgumentException("이미 존재하는 학생입니다: " + name);
         }
         students.add(name);
+        //주석 추가
     }
 
     //학생 제거
