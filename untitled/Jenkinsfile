@@ -32,6 +32,8 @@ pipeline {
         }
         success {
             echo 'Build and test succeeded!'
+            sh 'echo "Build Success - $(date)" > build-result.txt'
+            archiveArtifacts artifacts: 'build-result.txt'
         }
         failure {
             echo 'Build or test failed!'
