@@ -36,7 +36,7 @@ pipeline {
             archiveArtifacts artifacts: 'build-result.txt'
               mail to: 'emilypark0721@gmail.com',
                      subject: "빌드 성공: ${env.JOB_NAME}",
-                     body: "빌드가 성공했습니다!\n\n빌드 번호: ${env.BUILD_NUMBER}\n확인: ${env.BUILD_URL}"
+                     body: "빌드가 성공했습니다 !"
             }
         }
         failure {
