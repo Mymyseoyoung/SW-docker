@@ -13,6 +13,7 @@ import org.junit.jupiter.api.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class StudentManagerTest {
+    //주석 추가
 
     private static StudentManager studentManager;
 
